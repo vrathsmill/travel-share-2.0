@@ -1,0 +1,28 @@
+<<<<<<< HEAD
+current directory: /Users/vlrathsmill/travel-share/vendor/bundle/ruby/2.3.0/gems/json-1.8.6/ext/json
+/Users/vlrathsmill/.rvm/rubies/ruby-2.3.0/bin/ruby -r ./siteconf20170315-4690-1v8trjt.rb extconf.rb
+creating Makefile
+
+current directory: /Users/vlrathsmill/travel-share/vendor/bundle/ruby/2.3.0/gems/json-1.8.6/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/vlrathsmill/travel-share/vendor/bundle/ruby/2.3.0/gems/json-1.8.6/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/vlrathsmill/travel-share/vendor/bundle/ruby/2.3.0/gems/json-1.8.6/ext/json
+=======
+current directory: /Users/phanj/dev/web-0217/projects/travel-share/vendor/bundle/ruby/2.3.0/gems/json-1.8.6/ext/json
+/Users/phanj/.rvm/rubies/ruby-2.3.0/bin/ruby -r ./siteconf20170315-8494-wkz1m4.rb extconf.rb
+creating Makefile
+
+current directory: /Users/phanj/dev/web-0217/projects/travel-share/vendor/bundle/ruby/2.3.0/gems/json-1.8.6/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/phanj/dev/web-0217/projects/travel-share/vendor/bundle/ruby/2.3.0/gems/json-1.8.6/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/phanj/dev/web-0217/projects/travel-share/vendor/bundle/ruby/2.3.0/gems/json-1.8.6/ext/json
+>>>>>>> 8cb0c142269b9e9b79f4792fdd6c8f018a98e5f9
+make "DESTDIR=" install

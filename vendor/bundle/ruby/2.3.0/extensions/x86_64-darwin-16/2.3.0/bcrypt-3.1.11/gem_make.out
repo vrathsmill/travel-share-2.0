@@ -1,0 +1,90 @@
+<<<<<<< HEAD
+current directory: /Users/vlrathsmill/travel-share/vendor/bundle/ruby/2.3.0/gems/bcrypt-3.1.11/ext/mri
+/Users/vlrathsmill/.rvm/rubies/ruby-2.3.0/bin/ruby -r ./siteconf20170315-4690-1tnv2r3.rb extconf.rb
+creating Makefile
+
+current directory: /Users/vlrathsmill/travel-share/vendor/bundle/ruby/2.3.0/gems/bcrypt-3.1.11/ext/mri
+make "DESTDIR=" clean
+
+current directory: /Users/vlrathsmill/travel-share/vendor/bundle/ruby/2.3.0/gems/bcrypt-3.1.11/ext/mri
+=======
+current directory: /Users/phanj/dev/web-0217/projects/travel-share/vendor/bundle/ruby/2.3.0/gems/bcrypt-3.1.11/ext/mri
+/Users/phanj/.rvm/rubies/ruby-2.3.0/bin/ruby -r ./siteconf20170315-8494-1r66mgu.rb extconf.rb
+creating Makefile
+
+current directory: /Users/phanj/dev/web-0217/projects/travel-share/vendor/bundle/ruby/2.3.0/gems/bcrypt-3.1.11/ext/mri
+make "DESTDIR=" clean
+
+current directory: /Users/phanj/dev/web-0217/projects/travel-share/vendor/bundle/ruby/2.3.0/gems/bcrypt-3.1.11/ext/mri
+>>>>>>> 8cb0c142269b9e9b79f4792fdd6c8f018a98e5f9
+make "DESTDIR="
+compiling bcrypt_ext.c
+bcrypt_ext.c:17:25: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+            NIL_P(input) ? 0 : RSTRING_LEN(input));
+                               ^~~~~~~~~~~~~~~~~~
+<<<<<<< HEAD
+/Users/vlrathsmill/.rvm/rubies/ruby-2.3.0/include/ruby-2.3.0/ruby/ruby.h:991:6: note: expanded from macro 'RSTRING_LEN'
+     RSTRING_EMBED_LEN(str) : \
+     ^~~~~~~~~~~~~~~~~~~~~~
+/Users/vlrathsmill/.rvm/rubies/ruby-2.3.0/include/ruby-2.3.0/ruby/ruby.h:987:6: note: expanded from macro 'RSTRING_EMBED_LEN'
+=======
+/Users/phanj/.rvm/rubies/ruby-2.3.0/include/ruby-2.3.0/ruby/ruby.h:991:6: note: expanded from macro 'RSTRING_LEN'
+     RSTRING_EMBED_LEN(str) : \
+     ^~~~~~~~~~~~~~~~~~~~~~
+/Users/phanj/.rvm/rubies/ruby-2.3.0/include/ruby-2.3.0/ruby/ruby.h:987:6: note: expanded from macro 'RSTRING_EMBED_LEN'
+>>>>>>> 8cb0c142269b9e9b79f4792fdd6c8f018a98e5f9
+     (long)((RBASIC(str)->flags >> RSTRING_EMBED_LEN_SHIFT) & \
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+bcrypt_ext.c:17:25: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+            NIL_P(input) ? 0 : RSTRING_LEN(input));
+                               ^~~~~~~~~~~~~~~~~~
+<<<<<<< HEAD
+/Users/vlrathsmill/.rvm/rubies/ruby-2.3.0/include/ruby-2.3.0/ruby/ruby.h:992:28: note: expanded from macro 'RSTRING_LEN'
+=======
+/Users/phanj/.rvm/rubies/ruby-2.3.0/include/ruby-2.3.0/ruby/ruby.h:992:28: note: expanded from macro 'RSTRING_LEN'
+>>>>>>> 8cb0c142269b9e9b79f4792fdd6c8f018a98e5f9
+     RSTRING(str)->as.heap.len)
+     ~~~~~~~~~~~~~~~~~~~~~~^~~
+2 warnings generated.
+compiling crypt.c
+crypt.c:15:26: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+      NIL_P(input) ? 0 : RSTRING_LEN(input));
+                         ^~~~~~~~~~~~~~~~~~
+<<<<<<< HEAD
+/Users/vlrathsmill/.rvm/rubies/ruby-2.3.0/include/ruby-2.3.0/ruby/ruby.h:991:6: note: expanded from macro 'RSTRING_LEN'
+     RSTRING_EMBED_LEN(str) : \
+     ^~~~~~~~~~~~~~~~~~~~~~
+/Users/vlrathsmill/.rvm/rubies/ruby-2.3.0/include/ruby-2.3.0/ruby/ruby.h:987:6: note: expanded from macro 'RSTRING_EMBED_LEN'
+=======
+/Users/phanj/.rvm/rubies/ruby-2.3.0/include/ruby-2.3.0/ruby/ruby.h:991:6: note: expanded from macro 'RSTRING_LEN'
+     RSTRING_EMBED_LEN(str) : \
+     ^~~~~~~~~~~~~~~~~~~~~~
+/Users/phanj/.rvm/rubies/ruby-2.3.0/include/ruby-2.3.0/ruby/ruby.h:987:6: note: expanded from macro 'RSTRING_EMBED_LEN'
+>>>>>>> 8cb0c142269b9e9b79f4792fdd6c8f018a98e5f9
+     (long)((RBASIC(str)->flags >> RSTRING_EMBED_LEN_SHIFT) & \
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+crypt.c:15:26: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+      NIL_P(input) ? 0 : RSTRING_LEN(input));
+                         ^~~~~~~~~~~~~~~~~~
+<<<<<<< HEAD
+/Users/vlrathsmill/.rvm/rubies/ruby-2.3.0/include/ruby-2.3.0/ruby/ruby.h:992:28: note: expanded from macro 'RSTRING_LEN'
+=======
+/Users/phanj/.rvm/rubies/ruby-2.3.0/include/ruby-2.3.0/ruby/ruby.h:992:28: note: expanded from macro 'RSTRING_LEN'
+>>>>>>> 8cb0c142269b9e9b79f4792fdd6c8f018a98e5f9
+     RSTRING(str)->as.heap.len)
+     ~~~~~~~~~~~~~~~~~~~~~~^~~
+2 warnings generated.
+compiling crypt_blowfish.c
+compiling crypt_gensalt.c
+compiling wrapper.c
+linking shared-object bcrypt_ext.bundle
+
+<<<<<<< HEAD
+current directory: /Users/vlrathsmill/travel-share/vendor/bundle/ruby/2.3.0/gems/bcrypt-3.1.11/ext/mri
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 bcrypt_ext.bundle ./.gem.20170315-4690-112x9le
+=======
+current directory: /Users/phanj/dev/web-0217/projects/travel-share/vendor/bundle/ruby/2.3.0/gems/bcrypt-3.1.11/ext/mri
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 bcrypt_ext.bundle ./.gem.20170315-8494-1fy8q49
+>>>>>>> 8cb0c142269b9e9b79f4792fdd6c8f018a98e5f9

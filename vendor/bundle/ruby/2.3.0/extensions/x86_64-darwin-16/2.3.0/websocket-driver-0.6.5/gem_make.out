@@ -1,0 +1,32 @@
+<<<<<<< HEAD
+current directory: /Users/vlrathsmill/travel-share/vendor/bundle/ruby/2.3.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+/Users/vlrathsmill/.rvm/rubies/ruby-2.3.0/bin/ruby -r ./siteconf20170315-4690-1y2rsbk.rb extconf.rb
+creating Makefile
+
+current directory: /Users/vlrathsmill/travel-share/vendor/bundle/ruby/2.3.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /Users/vlrathsmill/travel-share/vendor/bundle/ruby/2.3.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+=======
+current directory: /Users/phanj/dev/web-0217/projects/travel-share/vendor/bundle/ruby/2.3.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+/Users/phanj/.rvm/rubies/ruby-2.3.0/bin/ruby -r ./siteconf20170315-8494-1cb8tbr.rb extconf.rb
+creating Makefile
+
+current directory: /Users/phanj/dev/web-0217/projects/travel-share/vendor/bundle/ruby/2.3.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /Users/phanj/dev/web-0217/projects/travel-share/vendor/bundle/ruby/2.3.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+>>>>>>> 8cb0c142269b9e9b79f4792fdd6c8f018a98e5f9
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+<<<<<<< HEAD
+current directory: /Users/vlrathsmill/travel-share/vendor/bundle/ruby/2.3.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 websocket_mask.bundle ./.gem.20170315-4690-17ts0us
+=======
+current directory: /Users/phanj/dev/web-0217/projects/travel-share/vendor/bundle/ruby/2.3.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 websocket_mask.bundle ./.gem.20170315-8494-10jy1et
+>>>>>>> 8cb0c142269b9e9b79f4792fdd6c8f018a98e5f9
