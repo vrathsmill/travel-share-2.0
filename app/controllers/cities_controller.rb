@@ -12,6 +12,7 @@ class CitiesController < ApplicationController
     @city_data = @city.gather_api_city_data
     @photos = @city.gather_api_photo_data
     @user = User.find(session[:user_id])
+    @review = Review.new
   end
 
   private

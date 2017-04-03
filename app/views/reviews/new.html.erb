@@ -1,0 +1,15 @@
+<h1>New Review From</h1>
+
+<%= form_for @reviewdo |f| %>
+
+
+  <%= f.label :rating %> <br>
+  <%= f.number_field :rating %> <br>
+
+  <%= f.label :description %> <br>
+  <%= f.text_area :description %> <br>
+
+  <%= f.submit %>
+
+
+<% end %>
